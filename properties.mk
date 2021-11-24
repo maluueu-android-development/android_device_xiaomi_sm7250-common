@@ -195,7 +195,7 @@ vendor.display.use_smooth_motion=1
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 debug.gralloc.gfx_ubwc_disable=0 \
 debug.sf.enable_hwc_vds=1 \
-debug.sf.latch_unsignaled=1 \
+debug.sf.latch_unsignaled=0 \
 persist.vendor.color.matrix=2
 
 # CNE
@@ -247,7 +247,7 @@ debug.sf.high_fps_early_phase_offset_ns=-4000000 \
 debug.sf.high_fps_late_app_phase_offset_ns=1000000 \
 debug.sf.high_fps_late_sf_phase_offset_ns=-4000000 \
 debug.sf.hw=0 \
-debug.sf.latch_unsignaled=1 \
+debug.sf.latch_unsignaled=0 \
 persist.demo.hdmirotationlock=false \
 persist.sys.sf.color_mode=9 \
 persist.sys.sf.color_saturation=1.0 \
