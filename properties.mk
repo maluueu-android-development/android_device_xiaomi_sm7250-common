@@ -199,7 +199,6 @@ vendor.display.use_smooth_motion=1
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 debug.gralloc.gfx_ubwc_disable=0 \
-debug.sf.enable_hwc_vds=1 \
 debug.sf.latch_unsignaled=1 \
 persist.vendor.color.matrix=2
 
