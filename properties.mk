@@ -156,6 +156,11 @@ camera.disable_zsl_mode=true
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 ro.charger.disable_init_blank=true
 
+# Chipset
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.soc.manufacturer=Qualcomm \
+ro.soc.model=SM7250
+
 # Crypto
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.crypto.allow_encrypt_override=true \
