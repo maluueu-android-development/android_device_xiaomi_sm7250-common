@@ -14,6 +14,6 @@
   {
     "repository": "kernel_xiaomi_sm7250",
     "target_path": "kernel/xiaomi/sm7250",
-    "branch": "twelve"
+    "branch": "twelve-plus"
   }
 ]
